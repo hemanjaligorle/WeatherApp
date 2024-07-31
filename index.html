@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Note">
+        <h1 class="noteinside">Today's Weather Insights!</h1>
+    </div>
+    <div class="display">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <h3 class="description">normal</h3>
+            <img src="images/pic.png" alt="image" class="weather-icon">
+            <h1 class="temp">57°C</h1>
+            <h2 class="city">India</h2>
+            <h3 class="feels_like">57</h3>
+            <div class="details">
+                <div class="col">
+                    <div>
+                    <p class="humidity">70%</p>
+                    <p>Humidity</p>
+                     </div>
+                </div>
+                <div class="col">
+                    <div>
+                    <p class="speed">75 kmph</p>
+                    <p>Wind Speed</p>
+                     </div>
+                </div>
+                <div class="col">
+                    <div>
+                    <p class="Cloudiness">75 kmph</p>
+                    <p>Cloudiness</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
+</body>
+</html>
