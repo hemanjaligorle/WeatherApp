@@ -2,6 +2,7 @@
 # Overview:
 Display of current weather in a city using open source API
 1. [API used] ( https://openweathermap.org/api )
+2. In this I used "Current Weather Data" type. Search for this category to understand more
 # Installation:
 1. clone the repository
 2. Now open this in your favorite IDE
