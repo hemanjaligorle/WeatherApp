@@ -1,7 +1,7 @@
 # WeatherApp
 # Overview:
 Display of current weather in a city using open source API
-[API used]{ https://openweathermap.org/api}
+1. [API used] ( https://openweathermap.org/api )
 # Installation:
 1. clone the repository
 2. Now open this in your favorite IDE
